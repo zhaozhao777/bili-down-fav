@@ -1,0 +1,14 @@
+[fav]
+d_folder = 待下载
+
+[file]
+multi_download = 1
+remove_temp    = true
+json_dir       = out/json
+temp_dir       = out/temp
+out_dir        = out/download
+
+[log]
+level   = error
+success = out/log/success.log
+fail    = out/log/fail.log
