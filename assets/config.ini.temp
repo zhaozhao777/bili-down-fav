@@ -1,14 +1,23 @@
 [fav]
+# 需要下载的收藏夹名
 d_folder = 待下载
 
 [file]
+# 下载线程数，必须大于0
 multi_download = 1
+# 下载后是否删除临时文件
 remove_temp    = true
+# 音视频json文件，不需要下载留空即可
 json_dir       = out/json
+# 临时文件存放目录
 temp_dir       = out/temp
+# 输出文件存放目录
 out_dir        = out/download
 
 [log]
+# 日志级别
 level   = error
+# 下载成功文件列表
 success = out/log/success.log
+# 下载失败文件列表
 fail    = out/log/fail.log
